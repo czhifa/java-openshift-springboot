@@ -12,7 +12,7 @@ public class DemoApplication {
 
   @RequestMapping("/")
   public String home() {
-    return "Hello Docker World";
+    return "Hello Docker World - testing automatic deployment when someone changed code";
   }
 
 	public static void main(String[] args) {
